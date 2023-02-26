@@ -1,0 +1,19 @@
+sequenceDiagram
+    participant browser
+    participant server
+
+    activate browser
+    browser->>browser: JavaScript handles the form's submit and renders the note list
+    deactivate browser
+
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    activate server
+    Note right of browser: The browser sends the user input to the server as JSON data in a POST request
+    server-->>browser: Status Code 201 {"message":"note created"}
+    deactivate server
+
+    Note left of server: The server responds with status code 201
+
+
+    
+    
