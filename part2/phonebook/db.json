@@ -1,0 +1,34 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "65265406",
+      "id": 1
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2
+    },
+    {
+      "name": "Ahmed Habaieb",
+      "number": "20365987",
+      "id": 5
+    },
+    {
+      "name": "Dorra Bouaziz",
+      "number": "99851023",
+      "id": 6
+    },
+    {
+      "name": "Racem Aribi",
+      "number": "5214587",
+      "id": 8
+    },
+    {
+      "name": "Omar Masmoudi",
+      "number": "20144744",
+      "id": 9
+    }
+  ]
+}
