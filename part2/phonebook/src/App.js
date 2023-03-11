@@ -114,7 +114,7 @@ const App = () => {
   const handleInputChange = (event) => {
     console.log(event.target.value)
     setInput(event.target.value)
-    setPersonsToShow(persons.filter(person => person.name.toLowerCase().includes(event.target.value)))
+    setPersonsToShow(persons.filter(person => person.name.toLowerCase().includes((event.target.value).toLowerCase())))
   }
 
   const addPerson = (event) => {
